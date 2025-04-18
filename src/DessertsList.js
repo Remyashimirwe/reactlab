@@ -1,4 +1,4 @@
-function DessertsList(props){
+/**function DessertsList(props){
     const lowcalories = props.data.filter((dessert) => {
         return dessert.calories < 500
     })
@@ -15,3 +15,4 @@ function DessertsList(props){
     return <ul>{lowcalories}</ul>
 }
 export default DessertsList;
+**/
